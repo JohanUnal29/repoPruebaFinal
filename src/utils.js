@@ -27,7 +27,7 @@ const storage = multer.diskStorage({
 });
 
 export const uploader = multer({ storage });
-
+//probemos si se guarda
 import { connect } from "mongoose";
 export async function connectMongo() {
   try {
